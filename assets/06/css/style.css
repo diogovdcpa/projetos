@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	vertical-align:middle;
+}
+body{font-size:14px; font-family:arial,sans-serif;    background: #7b6d58;}
+h1{text-align:center;padding:10px; font-size:24px;text-transform:uppercase;}
+
+.caixa{
+	    width: 590px;
+    height: 327px;
+    background: rgba(104,4,95,0.85);
+    margin: 70px auto;
+    padding: 40px 60px;
+    box-shadow: 0 3px 8px 0 #191818;
+}
+.caixa .col{
+	width:47%;
+	float:left;
+}
+.caixa .col:nth-of-type(2n+0){
+	float:right;
+}
+.caixa input{
+	background:#EEEEEE;
+	width:100%;
+	padding:15px;
+	border:0;
+	box-shadow:inset 0 3px 6px 0 #808080;/*Insiro uma sombra interna*/
+}
+.caixa label{
+	display:block;
+	padding-bottom:15px;
+}
+.caixa label small{
+	display:block;
+	padding-bottom:5px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.caixa .btn{
+	background:url(../img/img-btn.png) repeat;
+	padding:45px 20px;
+	border-radius:5px;
+	border:solid 1px #FF9A00;
+	box-shadow:none;/*removo a sombra do input*/
+	font-size:26px;
+	text-transform:uppercase;
+	font-weight:bold;	
+	margin-top:18px;
+	cursor:pointer;
+	color: #906309;
+    text-shadow: 0 1px 1px #000;/*Insiro sombra no texto*/
+}
+
+.caixa span{
+	 display: block;
+    padding-bottom: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 13px;
+    font-size: 12px;
+    border: solid 1px #862979;
+    padding: 8px;
+    background: #500945;
+}
+.caixa span b{
+	 display: block;
+    font-size:30px;
+}
