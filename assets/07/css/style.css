@@ -1,0 +1,87 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	vertical-align:middle;
+}
+body{font-size:14px; font-family:arial,sans-serif;background: #b3946c;}
+h1{text-align:center;padding:10px; font-size:24px;text-transform:uppercase;}
+
+.valor{
+	width: 390px;
+    height: 300px;
+    background: linear-gradient(#1f1f1f,#525252, #1f1f1f);/*Aqui eu usei um tipo de gradient(degradê) linear onde ele começa com uma cor no meio outra cor e no final a mesma cor inical*/
+    margin: 70px auto;
+    padding: 40px 60px;
+    box-shadow:-20px 19px 19px 2px rgba(10, 10, 10, 0.38);
+    -webkit-box-shadow:-20px 19px 19px 2px rgba(10, 10, 10, 0.38);
+    -moz-box-shadow:-20px 19px 19px 2px rgba(10, 10, 10, 0.38);
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-o-border-radius:8px;
+}
+.valor .col{
+	width:47%;
+	float:left;
+}
+.valor .col:nth-of-type(2n+0){
+	float:right;
+}
+.valor input{
+	background:#CCC;
+	width:100%;
+	padding:15px;
+	border:0;
+	box-shadow:inset 0 3px 6px 0 #5f5f5f;/*Insiro uma sombra interna*/
+	border-radius:5px;
+	font-size:18px;
+}
+.valor label{
+	display:block;
+	padding-bottom:10px;
+	color:#fff;
+}
+.valor label small{
+	display:block;
+	padding-bottom:5px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.valor .btn{
+	/*aqui em vez de usar uma imagem, fiz usando o linear-gradient do css3*/
+	background: linear-gradient(#9CC130 50%, #BDEA22, #5e8803 0%, #9CC130); /*são usados 4 cores diferentes mas com porcentagens diferentes*/
+	padding:20px;
+	border-radius:5px;
+	border:solid 1px #405808;
+	box-shadow:none;/*removo a sombra do input*/
+	font-size:26px;
+	text-transform:uppercase;
+	font-weight:bold;	
+	margin-top:0;
+	cursor:pointer;
+	color: #FFF;
+    text-shadow: 0 1px 1px #000;/*Insiro sombra no texto*/
+}
+
+.valor span{
+	display: block;
+    padding-bottom: 5px;
+    color:#b7b7b7;
+    text-transform: uppercase;
+    margin-top: 13px;
+    font-size: 15px;
+    border: solid 1px #464545;
+    padding: 15px;
+    background: #444444;
+	box-shadow:inset 0px 0px 0px 1px #1f1f1f;/*aqui insiro uma sombra interna que vai servir como uma borda de 1px pro efeito*/
+}
+.valor span b{
+	 display: block;
+    font-size:30px;
+}
