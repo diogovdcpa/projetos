@@ -7,7 +7,7 @@ class Ex09 {
         return $preco * $plucro/100;
     }
 
-    public function impostos($preco, $impostos){
-        return $preco * $impostos / 100;
+    public function impostos($preco, $imposto){
+        return $preco * $imposto / 100;
     }
 }
