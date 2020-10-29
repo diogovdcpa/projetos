@@ -3,28 +3,23 @@
 <head>
 <meta charset="utf-8">
 <title>mjailton - ligando você ao mundo do conhecimento</title>
-  	<link  rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="js/js.js"></script>
+  	<link  rel="stylesheet" href="<?php echo URL_BASE ?>assets/11/css/style.css">
+	<script type="text/javascript" src="<?php echo URL_BASE ?>assets/11/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="<?php echo URL_BASE ?>assets/11/js/js.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="base-caixa">
 		<h1>15%</h1>
-		<form action="" method="">
+		<form action="<?php echo URL_BASE."ex11/salario" ?>" method="post">
 			<label>
 				<span>Total de vendas</span>
-				<input type="text"placeholder="Digite Total de vendas">
+				<input type="text"placeholder="Digite Total de vendas" name="valor" value="<?php echo isset($valor) ? $valor : null ?>">
 			</label>
-			<h2>O salário do vendedor é: 000,00</h2>
+			<h2>O salário do vendedor é: <?php echo isset($resultado) ? $resultado : null ?></h2>
 			<input type="submit" class="btn" value="">
 		</form>
 	</div>
-	<!--
-	Uma empresa de venda de softwares paga a seu vendedor um fixo de R$800,00 por mês, <br>
-	mais uma comissão de 15% pelo seu valor de vendas no mês. Faça um algoritmo que leia o valor da venda e <br>
-	determine o salario total do funcionário. Mostre as informações que você achar necessárias.
-	-->
 </body>
 </html>
