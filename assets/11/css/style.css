@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+			-o-box-sizing:border-box;
+	vertical-align:middle;
+}
+
+body{font-size:14px; font-family:arial, sans-serif; background:#f1f1f1;}
+
+.base-caixa{
+	width:650px;
+	height:572px;
+	margin:0 auto;
+	position:relative;
+	background:url(../img/img-fundo.png) no-repeat;
+}
+
+.base-caixa form{
+	padding-top:280px;
+	width:296px;
+	margin:0 auto;
+}
+.base-caixa form label{
+	display:block;
+	padding-bottom:20px;
+}
+.base-caixa form label span{
+	display:block;
+	padding-bottom:5px;
+	font-size:16px;
+	color:#fff;
+}
+.base-caixa form label input{
+	padding:15px;
+	background:#f1f1f1;
+	border:0;
+	width:80%;
+	box-shadow:inset 0 2px 12px #580606;
+}
+.base-caixa .btn{
+	position:absolute;
+	background:url(../img/img-btn.png) no-repeat center;
+	border:0;
+	width:244px;
+	height:244px;
+	right:129px;
+	font-size:0;
+	cursor:pointer;
+}
+.base-caixa .btn:focus{
+	outline:none;
+}
+.base-caixa h1{
+	position:absolute;
+	top:78px;
+	left:75px;
+	font-size:90px;
+	letter-spacing:-6px;
+	font-weight:bold;
+	color:#fff;
+	text-shadow:0 2px 4px #000;
+	transform: rotate(-32deg);
+}
+.base-caixa h2{
+	color:#fff;
+	font-size:14px;
+	font-weight:inherit
+}
