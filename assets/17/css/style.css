@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+			-o-box-sizing:border-box;
+	vertical-align:middle;
+}
+
+body{font-size:14px; font-family:arial, sans-serif; background:#FFF;}
+
+.caixa{
+	width:724px;
+	height:409px;
+	background:url(../img/fundo.png) no-repeat;
+	margin:100px auto;
+	position:relative;
+}
+
+.caixa .retangulo{
+	width:300px;
+	position:absolute;
+}
+.caixa .retangulo input{
+	background:#e8e8e8;
+	border-radius:50px;
+	padding:6px 18px;
+	border:0;
+	box-shadow: inset 0 4px 9px #a7a7a7;
+	font-size:20px;
+	width:191px;
+}
+.caixa .retangulo small{
+	text-transform:uppercase;
+	color:#37464e;
+	display:block;
+	padding-bottom:5px;
+}
+.caixa .retangulo h1{
+	text-transform:uppercase;
+	color:#37464e;
+	font-weight:inherit;
+}
+.caixa .retangulo.retangulo1{
+	top:20px;
+	left:397px;
+}
+.caixa .retangulo.retangulo2{
+	top:126;
+	left:436px;
+}
+.caixa .retangulo.retangulo3{
+	top:234px;
+	left:490;
+}
+.caixa .retangulo.retangulo4{
+	top:337px;
+	left:469px;
+}
+
+.caixa .btn{
+	position:absolute;
+	bottom:148px;
+	right:514px;
+	width:149px;
+	height:149px;
+	background:url(../img/img-btn.png )no-repeat;
+	border:0;
+}
+.caixa .btn:hover{
+	background:url(../img/img-btn-hover.png )no-repeat;
+	cursor:pointer;
+}
