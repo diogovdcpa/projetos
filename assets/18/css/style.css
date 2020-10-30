@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+			-o-box-sizing:border-box;
+	vertical-align:middle;
+}
+
+body{font-size:14px; font-family:arial, sans-serif; background:#FFF;}
+
+.caixa{
+	width:884px;
+	height:420px;
+	margin:100px;
+	background:url(../img/fundo.png) no-repeat;
+	position:relative;
+}
+.caixa .retangulo{
+	width:200px;
+	position:absolute;
+	background:#eee;
+	border-radius:5px;
+	padding:10px 20px;
+}
+.caixa .retangulo.retangulo1{
+	right:70px;
+	top:10px;
+}
+.caixa .retangulo.retangulo1:before{
+	content:url(../img/lado-1.png);
+	float:left;
+	margin-right:10px;
+}
+.caixa .retangulo.retangulo2{
+	right:70px;
+	top:88px;
+}
+.caixa .retangulo.retangulo2:before{
+	content:url(../img/lado-2.png);
+	float:left;
+	margin-right:10px;
+}
+.caixa .retangulo.retangulo3{
+	right:70px;
+	top:168px;
+}
+
+.caixa .retangulo.retangulo3:before{
+	content:url(../img/lado-3.png);
+	float:left;
+	margin-right:10px;
+}
+.caixa .retangulo.retangulo4{
+	right:-255px;
+	top:84px;
+	width:265px;
+}
+.caixa .retangulo.retangulo4:before{
+	content:url(../img/resposta.png);
+	float:left;
+	margin-right:10px;
+}
+.caixa .retangulo.retangulo4 span{
+	color:#37464c;
+	font-size:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.caixa .retangulo input{
+	width:100px;
+	float:left;
+	border:solid 1px #ddd;
+	padding:8px;
+	font-size:22px;
+	border-radius:5px;
+	background:#f7f7f7;
+}
+.caixa .btn{
+	position:absolute;
+	top:10px;
+	right:-255px;
+	width:265px;
+	padding:10px;
+	font-size:23px;
+	color:#fff;
+	background:#ec4122;
+	border:solid 2px #e60d07;
+	border-radius:5px;
+	text-transform:uppercase;
+	cursor:pointer;
+}
