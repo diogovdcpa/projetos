@@ -1,0 +1,142 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+			-o-box-sizing:border-box;
+	vertical-align:middle;
+}
+
+body{font-size:14px; font-family:arial, sans-serif; background:#EEEEEE;}
+
+.caixa{
+	width:650px;
+	padding:50px;
+	margin:100px auto;
+	background:#333;
+	border-radius:8px;
+	box-shadow:0 8px 0 0 #b1b1b1;
+	position:relative;
+	border:solid 1px #000;
+	border-bottom:solid 1px #cecece;
+	text-align:center;
+}
+.caixa:before{
+	position:absolute;
+	content:url(../img/img-sombra.png);
+	z-index:-1;
+	bottom:-38px;
+	left:0;
+}
+
+.caixa h1{
+	display:inline-block;
+	color:#fff;
+	font-size:65px;
+	padding:10px 10px;
+	background:#000;
+	border-radius:8px;
+	
+	box-shadow: inset 0 0 0 1px #545454, 0 0 0 2px #000;
+	margin:0 2px;
+	position:relative;
+	height:100px;
+	text-align:center;
+}
+.caixa h1:before{
+	content:"";
+	position:absolute;
+	background:#cccccc61;
+	left:0;
+	top:0;
+	right:0;
+	height:48px;
+	border-radius:8px 8px 0 0;
+	border-bottom:solid 3px #000;
+}
+.caixa h1:after{
+	content:"";
+	position:absolute;
+	background:#cccccc61;
+	left:0;
+	right:0;
+	bottom:0;
+	height:48px;
+	border-radius: 0 0 8px 8px;
+}
+.caixa h1 small{
+	font-size:10px;
+	position:absolute;
+	top:-17px;
+	left:4px;
+	text-align:center;
+}
+.caixa h1 span input{
+	width:76px;
+	position:relative;
+	z-index:1;
+	letter-spacing:-4px;
+	font-weight:bold;
+	background:none;
+	border:0;
+	color:#eee;
+	text-align:center;
+	font-size:65px;
+}
+.caixa h1 span input::-webkit-input-placeholder{
+	color:#eee;
+}
+.caixa h1 span{
+	letter-spacing:-1px;
+}
+.caixa h1 span:before{
+	content:url(../img/marca-01.png);
+	position:absolute;
+	top:40px;
+	left:-3px;
+	z-index:1;
+}
+.caixa h1 span:after{
+	content:url(../img/marca-02.png);
+	position:absolute;
+	top:40px;
+	right:-3px;
+	z-index:1;
+}
+.caixa h3{
+	display:block;
+	color:#eee;
+	padding:10px;
+	text-transform:uppercase;
+	font-size:20px
+}
+.caixa h1.sinal{
+	height:81px;
+	margin:0 15px;
+	padding-top:4px;
+}
+.caixa h1.sinal:before{
+	height:39px;
+}
+.caixa h1.sinal:after{
+	height:39px;
+}
+.caixa h1.sinal span:before{
+	top:30px;
+}
+.caixa h1.sinal span:after{
+	top:30px;
+}
+
+.caixa .btn{
+	position:absolute;
+	right:-100px;
+	top:70px;
+	width:216px;
+	height:216px;
+	background:url(../img/img-btn.png) no-repeat;
+	font-size:0;
+	border:0;
+	cursor:pointer;
+}

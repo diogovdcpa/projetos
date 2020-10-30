@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+			-o-box-sizing:border-box;
+	vertical-align:middle;
+}
+
+body{font-size:14px; font-family:arial, sans-serif; background:#EEEEEE;}
+
+.caixa{
+	width:763px;
+	height:278px; 
+	padding:50px;
+	margin:190px auto;
+	background:url(../img/back-fundo.png) no-repeat;
+	position:relative;
+}
+.caixa .losango{
+	width:220px;
+	height:208px;
+	background:url(../img/base-numero.png) no-repeat;
+	position:absolute;
+}
+.caixa .losango.losango1{
+	top:-79px;
+	left:-117px;
+}
+.caixa .losango.losango2{
+	top:-25px;
+	left: 22px;
+}
+.caixa .losango.losango3{
+	top:70px;
+	left:-74px;
+}
+.caixa .losango.losango4{
+	bottom:15px;
+	left:25px;
+	background:none;
+}
+.caixa .losango.losango4 input{
+	width:208px;
+	height:197px;
+	background:url(../img/img-btn.png) center no-repeat;
+	cursor:pointer;
+}
+.caixa .losango input{
+	width:82px;
+	position:absolute;
+	z-index:1;
+	font-size:55px;
+	letter-spacing:-4px;
+	font-weight:bold;
+	background:none;
+	color:#3a98b1;
+	text-align:center;
+	top:61px;
+	left:61px;
+	border:0;
+}
+.caixa .losango input::-webkit-input-placeholder{
+	color:#3a98b1
+}
+.caixa span{
+	color:#fff;
+	position:absolute;
+	top:85px;
+	left:237px;
+	font-size:18px;
+	text-transform:uppercase;
+}
