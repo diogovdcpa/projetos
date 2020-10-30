@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	vertical-align:middle;
+}
+body{font-size:14px; font-family:arial,sans-serif;background:#2385BA;}
+
+.base-caixa{
+	width:676px;
+	height:484px;
+	margin:80px auto;
+	margin-bottom:0;
+	background:url(../img/back-caixa.png) no-repeat center;
+}
+
+.base-caixa form{
+	padding:130px 50px;
+	margin-top:40px;
+}
+.base-caixa label{
+	width:229px;
+	float:left;
+}
+.base-caixa label span{
+	display:block;
+	padding-bottom:5px;
+	font-weight:bold;
+	font-size:.96em;
+	text-align:center;
+}
+.base-caixa label:nth-of-type(2n+0){
+	 width: 313px;
+	float:right;
+	    margin-top: 50px;
+}
+.base-caixa label.sinal:before{
+	content:url(../img/sinal.png);
+	float: left;
+    margin-right: 40px
+}
+.base-caixa label.sinal h2{
+	color:#2385BA;
+	text-transform:uppercase;
+	    font-size: 40px;
+}
+.base-caixa label input{
+	width:100%;
+	background:url(../img/img-input.png) no-repeat;
+	border:0;
+	font-size:70px;
+	color:#393939;
+	font-weight:bold;
+	text-align:center;
+	    padding: 10px;
+}
+.base-caixa .base-btn{
+	width:100%;
+	float:left;
+	margin-top:30px;
+}
+.base-caixa .btn{
+	width:190px;
+	height:88px;
+	margin:0 auto;
+	background:url(../img/img-btn.png) no-repeat center;
+	border:0;
+	display:block
+}
+

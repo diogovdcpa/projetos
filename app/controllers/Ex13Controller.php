@@ -1,15 +1,20 @@
 <?php
+
 namespace app\controllers;
+
 use app\core\Controller;
 use app\models\Ex13;
 
-class Ex13Controller extends Controller{
-    public function index(){
+class Ex13Controller extends Controller
+{
+    public function index()
+    {
         $dados["view"] = "Index";
-        $this->load("13/Index",$dados);
+        $this->load("13/Index", $dados);
     }
 
-    public function taxista(){
+    public function taxista()
+    {
         $objEx13 = new Ex13();
 
         $inicio = $_POST["inicio"];
@@ -17,8 +22,8 @@ class Ex13Controller extends Controller{
         $venda = $_POST["venda"];
         $litros = $_POST["litros"];
 
-        $dados["media"] = $objEx13->media($inicio,$fim,$litros);
-        $dados["lucro"] = $objEx13->lucro($litros,$venda);
+        $dados["media"] = $objEx13->media($inicio, $fim, $litros);
+        $dados["lucro"] = $objEx13->lucro($litros, $venda);
 
         $dados["inicio"] = $inicio;
         $dados["fim"] = $fim;
@@ -26,6 +31,6 @@ class Ex13Controller extends Controller{
         $dados["litros"] = $litros;
 
         $dados["view"] = "Index";
-        $this->load("13/Index",$dados);
+        $this->load("13/Index", $dados);
     }
 }
