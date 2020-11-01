@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+			-o-box-sizing:border-box;
+	vertical-align:middle;
+}
+
+body{font-size:14px; font-family:arial, sans-serif; background:#fbfaf8;}
+
+.nota{
+	width:776px;
+	height:610px;
+	margin:40px auto;
+	background:url(../img/back-fundo.png) no-repeat;
+	margin-bottom:0;
+}
+
+.nota form{
+	padding:130px;
+}
+.nota table{
+	border:solid 3px #00238c;
+	border-bottom:0;
+	width:100%;
+	font-size:23px;
+	color:#00238c;
+	font-style:italic;
+}
+.nota table th,
+.nota table td
+{
+	padding:12px;
+	border-bottom:solid 3px #00238c;
+}
+.nota table td{	border-right:solid 3px #00238c;text-align:right;}
+.nota table td:nth-of-type(2n+0){border-right:0;text-align:left;}
+
+
+.nota table td input{color:#00a3d9;font-size:23px; border:0; background:none;}
+.nota table td input::-webkit-input-placeholder{color:#00a3d9;}
+
+.nota .base-btn td{
+	text-align:left;
+	border-right:0;
+}
+.nota .base-btn .btn{
+	width:160px;
+	height:47px;
+	display:inline-block;
+	background:url(../img/img-btn.png) no-repeat;
+	cursor:pointer;
+	font-size:0;
+}
+.nota .base-btn span{
+	display:inline-block;
+	font-weight:bold;
+	padding-left:20px;
+}

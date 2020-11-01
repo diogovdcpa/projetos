@@ -1,0 +1,120 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+			-o-box-sizing:border-box;
+	vertical-align:middle;
+}
+
+body{font-size:14px; font-family:arial, sans-serif; background:#EEEEEE;}
+
+.caixa{
+	width:1280px;
+	margin:100px auto;
+}
+
+.caixa .col1
+{
+	width:479px;
+	height:498px;
+	float:left;
+	position:relative;
+	left:60px;
+	padding-top:90px;
+	padding-left:110px;
+	background:url(../img/lado01.png) no-repeat;
+}
+.caixa .col1 label,
+.caixa .col2 label
+{
+	display:block;
+	padding-bottom:10px;
+}
+.caixa .col1 label span,
+.caixa .col2 label span
+{
+	display:block;
+	padding-bottom:5px;
+	color:#999;
+	font-weight:bold;
+	font-size:16px;
+	font-style:italic;
+}
+.caixa .col1 label input,
+.caixa .col2 label input
+{
+	width:192px;
+	height:47px;
+	border:0;
+	padding:0 13px;
+	font-size:18px;
+	color:#444;
+	background:url(../img/back-input01.png) no-repeat;
+}
+.caixa .col1 label input:focus,
+.caixa .col2 label input:focus
+{
+	outline:none;
+	background:url(../img/back-input01-ativo.png) no-repeat;
+}
+
+
+.caixa .col1 label:nth-of-type(2){
+	position:relative;left:-5px;
+}
+.caixa .col1 label:nth-of-type(3){
+	position:relative;left:-10px;
+}
+
+/**/
+.base-btn{
+	width:218px;
+	height:378px;
+	float:left;
+	position:relative;
+}
+.base-btn input{
+	width:355px;
+	height:378px;
+	position:absolute;
+	background:url(../img/img-btn.png) no-repeat;
+	border:0;
+	top:75px;
+	left:-22px;
+	cursor:pointer;
+}
+.base-btn input:focus{
+	outline:none;
+	background:url(../img/img-btn-ativo.png) no-repeat;
+}
+
+
+
+.caixa .col2{
+	width:479px;
+	height:498px;
+	float:left;
+	position:relative;
+	left:60px;
+	padding-top:90px;
+	padding-left:110px;
+	background:url(../img/lado02.png) no-repeat;
+}
+.caixa .col2 label{
+	position:relative;left:80px;
+	float:left;
+}
+.caixa .col2 label input{
+	background:url(../img/back-input02.png) no-repeat;
+}
+.caixa .col2 label input:focus{outline:none;	background:url(../img/back-input02-ativo.png) no-repeat;}
+
+
+.caixa .col2 label:nth-of-type(2){
+	position:relative;left:85px;
+}
+.caixa .col2 label:nth-of-type(3){
+	position:relative;left:90px;
+}

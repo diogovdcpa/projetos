@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+			-o-box-sizing:border-box;
+	vertical-align:middle;
+}
+
+body{font-size:14px; font-family: 'Permanent Marker', cursive; background:#004c66;}
+
+.caixa{
+	width:1250px;
+	margin:0 auto;
+	height:645px;
+	background:url(../img/fundo.png) top no-repeat;
+}
+.caixa form{
+	padding-top:144px;
+	width:640px;
+	margin:0 auto;
+	text-align:center;
+}
+.caixa form label{
+	display:inline-block;
+	color:#fff;
+	width:30%;
+	border:solid 2px #ddd;
+	border-radius: 4px;
+}
+.caixa form label h1{
+	display:inline-block;
+	margin-right:10px;
+}
+.caixa form label input{
+	display:inline-block;
+	width:50px;
+	font-size:23px;
+	border:0;
+	background:none;
+	color:#FFF;
+	font-family: 'Permanent Marker', cursive; 
+}
+.caixa form label input::-webkit-input-placeholder{
+	color:#FFF;
+}
+
+
+.caixa .btn{
+	width:120px;
+	height:65px;
+	display:block;
+	margin:30px auto;
+	border:0;
+	background:url(../img/img-btn.png) no-repeat;
+	cursor:pointer;
+}
+
+.caixa .resultado{
+	padding-top:10px;
+}
+.caixa .resultado span{
+	display:block;
+	color:#fff;
+	font-size:23px;
+}
+.caixa .resultado h2{
+	display:inline-block;
+	color:#fff;
+	font-size:36px;
+	padding:0 10px;
+}
+.caixa .resultado h2 small{
+	font-size:16px;
+	position:relative;
+	bottom:-5px;
+}
